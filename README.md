@@ -44,9 +44,10 @@ Here is an example of a photo of a building "painted" in the style of Van Gogh's
 
 First, clone this repository to your local machine:
 
-``bash
+```bash
 git clone [https://github.com/YOUR_USERNAME/YOUR_REPOSITORY_NAME.git](https://github.com/YOUR_USERNAME/YOUR_REPOSITORY_NAME.git)
 cd YOUR_REPOSITORY_NAME
+```
 
 (You will need to replace YOUR_USERNAME and YOUR_REPOSITORY_NAME with your actual GitHub details after you upload it.)
 
