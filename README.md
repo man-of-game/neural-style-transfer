@@ -55,7 +55,7 @@ cd YOUR_REPOSITORY_NAME
 
 It's a best practice to create and activate a virtual environment so you don't install packages globally.
 
-``bash
+```bash
 # On macOS/Linux
 python3 -m venv venv
 source venv/bin/activate
@@ -63,13 +63,15 @@ source venv/bin/activate
 # On Windows
 python -m venv venv
 .\venv\Scripts\activate
+```
 
 ### 4. Install Dependencies
 
 Install all the required libraries from the `requirements.txt` file:
 
-``bash
+```bash
 pip install -r requirements.txt
+```
 
 ### 5. Run the Script!
 
@@ -79,14 +81,17 @@ A new window will pop up showing you the painting process. The final image will 
 
 **Basic Example:**
 
-``bash
+```bash
 python style_transfer.py --content_path "path/to/my_photo.jpg" --style_path "path/to/my_painting.jpg"
+```
 
 **Advanced Example (More "Stylish" and Higher-Res):**
 
 This command increases the style's influence (--style_weight) and runs for longer (--epochs), creating a 1024px image (--max_dim).
 
-``python style_transfer.py --content_path "my_photo.jpg" --style_path "my_painting.jpg" --output_path "high_res_art.jpg" --max_dim 1024 --style_weight 5.0 --epochs 15
+```
+python style_transfer.py --content_path "my_photo.jpg" --style_path "my_painting.jpg" --output_path "high_res_art.jpg" --max_dim 1024 --style_weight 5.0 --epochs 15
+```
 
 ---
 
