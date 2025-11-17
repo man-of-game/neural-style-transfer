@@ -24,6 +24,10 @@ This implementation is based on the original paper: [A Neural Algorithm of Artis
 ## 🖼️ Example Result
 
 Here is an example of a photo of a building "painted" in the style of Van Gogh's "Starry Night".
+![Masterpiece](https://github.com/user-attachments/assets/1d988c39-ed7b-4507-b6f4-329570f7b736)
+with inputs (content=![Taj_Mahal](https://github.com/user-attachments/assets/ea7d21bc-a0e1-408d-b8b9-c4351749b7c3), style = ![starry_night](https://github.com/user-attachments/assets/23666284-f68b-4ad2-8434-a26b065fadbb), style weigth = 20.0, epochs=15
+
+
 
 > **(IMPORTANT: You must add your own image here!)**
 >
