@@ -6,7 +6,7 @@ import argparse
 import cv2 
 
 
-def load_and_preprocess_image(image_path):
+def load_and_preprocess_image(image_path, max_dim):
   img = Image.open(image_path)
 
   #calculate new size, keep aspect ratio
@@ -356,5 +356,5 @@ if __name__ == '__main__':
 
     cv2.destroyAllWindows()
 
-    print(f"Image saved as '{args.output_origin_path}'")
+    print(f"Image saved as '{args.output_path}'")
 
