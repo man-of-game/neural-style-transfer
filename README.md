@@ -27,12 +27,6 @@ Here is an example of a photo of a building "painted" in the style of Van Gogh's
 <img src="https://github.com/user-attachments/assets/1d988c39-ed7b-4507-b6f4-329570f7b736" alt="Masterpiece" width="400px">
 
 
-> **(IMPORTANT: You must add your own image here!)**
->
-> 1. Run your script to create a cool `my_masterpiece.jpg`.
-> 2.  Upload that JPG to your GitHub repository.
-> 3.  Edit this README file on GitHub and drag-and-drop your image right here to replace this text.
-
 ---
 
 ## 🛠️ How to Use
